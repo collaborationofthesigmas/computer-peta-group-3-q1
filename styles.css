@@ -42,6 +42,28 @@ html, body {
     color: #ffffffe5;
     font-size: 15px;
     font-family: sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: sans-serif;
+    font-weight: bold!important;
+}
+
+.picture {
+    position: absolute; 
+    right: 20px;
+    top: 50%; 
+    transform: translateY(-33%);
+    margin-right: 80px;
+    width: 500px; 
+}
+
+.text1 {
+    margin-left: 220px;
+    margin-top: 250px;
 }
