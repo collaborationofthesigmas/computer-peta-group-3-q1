@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -11,6 +12,9 @@ html, body {
     display: flex;
     align-items: center; 
     padding: 0 20px; 
+    z-index: 1000;
+    position: fixed!important;
+    width: 100%;
 }
 
 .logo {
@@ -23,7 +27,10 @@ html, body {
 
 .navbar {
     display: flex;
-    align-items: center; 
+    align-items: center!important; 
+    position: fixed!important;
+    justify-content: center;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -34,7 +41,7 @@ html, body {
 
 .navbar ul li {
     list-style: none;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .navbar a {
@@ -43,13 +50,12 @@ html, body {
     font-size: 15px;
     font-family: sans-serif;
     font-weight: bold;
-    margin: 10px;
 }
 
 h1 {
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 50px;
     font-family: sans-serif;
     font-weight: bold!important;
 }
@@ -65,9 +71,14 @@ h1 {
 
 .text1 {
     margin-left: 220px;
-    margin-top: 250px;
+    margin-top: 160px;
 }
 
 .picture {
     float: right;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
 }
