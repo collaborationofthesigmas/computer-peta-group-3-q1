@@ -20,9 +20,12 @@ html, body {
 .logo {
     width: 35px;
     height: 35px;
-    margin-right: 25px;
+    /* margin-right: 25px; */
     background-color: #CC0000;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    position: absolute;
+    float: left;
+    align-self: auto;
 }
 
 .navbar {
@@ -31,12 +34,18 @@ html, body {
     position: fixed!important;
     justify-content: center;
     z-index: 1000;
+    margin-left: 50px;
+    
+
 }
 
 .navbar ul {
     display: flex;
     padding: 0;
     margin: 0;
+    margin-left: 35px;
+    padding-right: 35px;
+    
 }
 
 .navbar ul li {
@@ -50,6 +59,7 @@ html, body {
     font-size: 15px;
     font-family: sans-serif;
     font-weight: bold;
+    
 }
 
 .heading1 {
@@ -69,15 +79,21 @@ html, body {
 }
 
 .text1 {
-    margin-left: 220px;
+    /* margin-left: 220px;
     margin-top: 200px;
-    overflow-wrap: break-word;
-    width: 600px;
-    text-align: justify;
+    overflow-wrap: break-word; */
+    margin: auto;
+    max-width: 100px;
+    color: gray;
+    font: auto "sans-serif";
+
 }
 
-.picture {
-    float: right;
+.enteng-pic-0 {
+    max-width: 607px;
+    max-height: 500px;
+    float: top;
+    margin: auto;
 }
 
 section {
@@ -90,11 +106,12 @@ p {
 }
 
 .text2 {
-    width: 850px;
+    max-width: 700px;
     overflow-wrap: break-word;
     margin-top: -50px!important;
-    margin: auto;
     text-align: justify;
+    margin: auto;
+    padding: 0 40px;
 }
 
 .heading2 {
@@ -121,4 +138,11 @@ p {
     display: flex;
     margin-top: 50px!important;
     justify-content: center;
+}
+
+
+.home-content {
+    text-align: center;
+    max-width: 670px;
+    margin: auto;
 }
