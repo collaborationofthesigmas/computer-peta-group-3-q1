@@ -1,4 +1,4 @@
-html, body {
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -205,12 +205,13 @@ p {
 
 .timeline-bottom {
     text-align: center;
-    margin-left: 19.5rem;
+    margin-left: 1.5rem;
+    gap: 190px;
     list-style: none;
     display: flex;
 }
 
 .timeline-botoom li {
-    margin: 0px 18rem;  
+    margin: 18rem;  
     min-width: 10rem; 
 }
