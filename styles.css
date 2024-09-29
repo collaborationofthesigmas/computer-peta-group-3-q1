@@ -8,7 +8,7 @@ html, body {
 
 .header {
     background-color: #000000;
-    height: 35px;
+    height: 45px;
     display: flex;
     align-items: center; 
     padding: 0 20px; 
@@ -18,14 +18,15 @@ html, body {
 }
 
 .logo {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     /* margin-right: 25px; */
     background-color: #CC0000;
     /* margin-left: 40px; */
     position: absolute;
     float: left;
     align-self: auto;
+
 }
 
 .navbar {
@@ -35,7 +36,7 @@ html, body {
     justify-content: center;
     z-index: 1000;
     margin-left: 50px;
-    margin: auto;   
+    /* margin: auto;   */
     
 
 }
@@ -52,6 +53,7 @@ html, body {
 .navbar ul li {
     list-style: none;
     margin: 0 20px;
+    text-align: center;
 }
 
 .navbar a {
@@ -121,10 +123,11 @@ p {
 }
 
 .text3 {
-    width: 850px;
+    max-width: 700px;
     margin: auto;
     overflow-wrap: break-word;
     text-align: justify;
+    padding: 0 40px;
 }
 
 .enteng-pic {
@@ -145,4 +148,14 @@ p {
     text-align: center;
     max-width: 670px;
     margin: auto;
+}
+
+.enteng-section {
+    margin-top: 100px;
+
+}
+
+.latest-section {
+    margin-top: 150px;
+    
 }
