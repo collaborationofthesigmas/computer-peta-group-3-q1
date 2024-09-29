@@ -199,13 +199,13 @@ p {
 }
 
 .timeline-top li {
-    margin-right: 18rem;
+    margin-right: 13rem;
     min-width: 10rem;
 }
 
 .timeline-bottom {
     text-align: center;
-    margin-left: 1.5rem;
+    margin-left: 18rem;
     gap: 190px;
     list-style: none;
     display: flex;
