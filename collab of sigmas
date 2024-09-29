@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <style>
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        scroll-behavior: smooth;
+    }
+    
+    .header {
+        background-color: #000000;
+        height: 45px;
+        display: flex;
+        align-items: center; 
+        padding: 0 20px; 
+        z-index: 1000;
+        position: fixed!important;
+        width: 100%;
+    }
+    
+    .logo {
+        width: 45px;
+        height: 45px;
+        /* margin-right: 25px; */
+        background-color: #CC0000;
+        /* margin-left: 40px; */
+        position: absolute;
+        float: left;
+        align-self: auto;
+    
+    }
+    
+    .navbar {
+        display: grid;
+        align-items: center!important; 
+        position: fixed!important;
+        justify-content: center;
+        z-index: 1000;
+        margin-left: 50px;
+        /* margin: auto;   */
+        
+    
+    }
+    
+    .navbar ul {
+        display: flex;
+        padding: 0;
+        margin: 0 60px;
+        padding-right: 35px;
+        
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        margin: 0 20px;
+        text-align: center;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: #ffffffe5;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        
+    }
+    
+    .navbar a:hover {
+        font-weight: normal;
+        padding: 1px;
+        animation: shrink 35ms;
+    }
+    
+    @keyframes shrink {
+        from {
+            font-weight: bold;
+        }
+    
+        to {
+            font-weight: normal;
+        }
+    }
+    
+    .heading1 {
+        text-align: center;
+        position: relative;
+        top: 50px;
+        font-family: sans-serif;
+    }
+    
+    .picture {
+        position: absolute; 
+        right: 20px;
+        top: 50%; 
+        transform: translateY(-33%);
+        margin-right: 80px;
+        width: 500px; 
+    }
+    
+    .text1 {
+        /* margin-left: 220px;
+        margin-top: 200px;
+        overflow-wrap: break-word; */
+        margin: auto;
+        max-width: 100px;
+        font: auto "sans-serif" rgb(167, 166, 166);
+    
+    }
+    
+    .enteng-pic-0 {
+        max-width: 607px;
+        max-height: 500px;
+        float: top;
+        margin: auto;
+    }
+    
+    section {
+        padding: 100px 20px;
+        height: 100vh;
+    }
+    
+    p {
+        font-family: helvetica;
+    }
+    
+    .text2 {
+        max-width: 700px;
+        overflow-wrap: break-word;
+        margin-top: -50px!important;
+        text-align: justify;
+        margin: auto;
+        padding: 0 40px;
+    }
+    
+    .heading2 {
+        display: flex;
+        justify-content: center;
+        margin-top: -120px;
+    }
+    
+    .text3 {
+        max-width: 700px;
+        margin: auto;
+        overflow-wrap: break-word;
+        text-align: justify;
+        padding: 0 40px;
+    }
+    
+    .enteng-pic {
+        display: block;
+        margin-top: 20px!important;
+        width: 650px;
+        margin: 20px auto;
+    }
+    
+    .headline {
+        display: flex;
+        margin-top: 50px!important;
+        justify-content: center;
+    }
+    
+    
+    .home-content {
+        text-align: center;
+        max-width: 670px;
+        margin: auto;
+    }
+    
+    .enteng-section {
+        margin-top: 100px;
+    
+    }
+    
+    .latest-section {
+        margin-top: 150px;
+        
+    }
+    
+    .page-3 {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .timeline {
+        position: relative;
+        margin: 30px auto;
+        height: 5px;
+        width: 80%;
+        border-radius: 20px;
+        background-color: black;
+    }
+    
+    
+    .timeline-top {
+        list-style: none;
+        display: flex;
+        text-align:  center;
+        margin-left: 1.5rem;
+    }
+    
+    .timeline-top li {
+        margin-right: 13rem;
+        min-width: 10rem;
+    }
+    
+    .timeline-bottom {
+        text-align: center;
+        margin-left: 18rem;
+        gap: 190px;
+        list-style: none;
+        display: flex;
+    }
+    
+    .timeline-botoom li {
+        margin: 18rem;  
+        min-width: 10rem; 
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ </head>
+<section class="header">
+    <div class="navbar">
+        <img src="https://raw.githubusercontent.com/collaborationofthesigmas/computer-peta-group-3-q1/refs/heads/main/images/computer%20peta%20logo%202.png" class="logo">
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#enteng">Typhoon Enteng</li>
+            <li><a href="#latest">Latest Updates</a></li>
+            <li><a href="#time">Timeline</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#source">Sources</a></li>
+        </ul>
+    </div>
+</section>
+<section class="Home" id="home">
+    <div class="home-content">
+        <h1><b>Typhoon "ENTENG"(YAGI) Updates</b></h1 class="heading1">
+            <img src="https://raw.githubusercontent.com/collaborationofthesigmas/computer-peta-group-3-q1/refs/heads/main/images/typhoon%20enteng.png" class="enteng-pic-0">
+        <p><i>Super Typhoon "Enteng", also known as Super Typhoon Yagi, a category 5 typhoon that originated from a low-pressure area that formed on August 30, approximately 540 km (330 mi) northwest of Palau.
+            Super Typhoon "Enteng" left the Philippine Area of Responsibility (PAR) on September 4, and wreaked havoc on neighboring countries as it started dissipating. The super typhoon fully dissipated on September 8.
+            The Sigma News team fully sympathizes to the families and people affected by this typhoon.</i></p class="text1">
+    </div>
+</section>
+<article class="enteng-section" id="enteng">
+    <div class="enteng-content">
+        <div class="page1">
+            <div class="text2">
+                <p>Super Typhoon "Enteng", a category 5 typhoon originating from a low pressure area that formed approximately 540 km (330 mi) northwest of Palau. The system was classified as a tropical storm and named Yagi by the Japan Meteorology Agency (JMA). After making landfall over Casiguran, Aurora, in the Philippines, Enteng(Yagi) weakened as it moved inland through the rugged terrain of the Cordillera Central of Luzon. It later emerged over the West Philippine Sea and began merging with a secondary circulation west of the Lingayen Gulf. The JMA reported that the storm reached its peak intensity with ten-minute sustained winds of 195 km/h (120 mph) and a central pressure of 915 hPa (27.02 inHg). It subsequently peaked as a Category 5-equivalent super typhoon on the Saffir-Simpson scale, with one-minute sustained winds of 260 km/h (160 mph).</p>
+                <p>In preparation for Yagi, the Philippines suspended classes in Metro Manila and multiple provinces across Luzon and Visayas on September 2 and 3, multiple domestic flights were canceled, and forced evacuations were ordered. In China, schools were closed across Hainan Province on September 5 and suspensions to local transport and shipping occurred the following day, evacuations were also ordered. Hong Kong Observatory issued a Standby Signal No.1 warning over Hong Kong as Yagi approached the territory at the strength of a Category 4 typhoon, multiple flights and trading in the Hong Kong Stock Exchange was cancelled. Macau cancelled multiple flights, and classes were suspended. Vietnam temporarily suspended flight operations, suspended classes, rail way systems were suspended, and made multiple advisories in anticipation of the impact of Typhoon Yagi. </p>
+                <p>This Typhoon singlehandedly caused great damages to multiple countries such as Philippines, China, Hong Kong, Macau, Vietnam, Laos, Thailand, and Myanmar. In response to the severe effects of Typhoon Yagi, the United States pledged US$1 million in immediate humanitarian aid, while the Australian government allocated AUD$3 million (US$2 million) for emergency assistance and crucial services. The Swiss Agency for Development and Cooperation committed US$1.17 million, sending six specialists to aid in the recovery efforts. The European Union has provided €2.2 million (US$2.6 million) in humanitarian aid, with €1.2 million (US$1.42 million) directed to Myanmar, €650,000 (US$768,755) to Vietnam, €200,000 (US$236,540) to the Philippines, and €150,000 (US$177,405) to Laos, to support those most affected by Typhoon Yagi.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</article>
+<article class="latest-section" id="latest">
+    <div class="latest-content">
+        <div class="page2">
+            <div class="heading2">
+                <h2><b>Latest Updates On Typhoon "ENTENG"(YAGI)</b></h2>
+            </div>
+            <div class="headline">
+                <h5>Typhoon Yagi leaves at least 74 dead in Myanmar after flooding and landslides</h5>
+            </div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2171049044.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp" class="enteng-pic">
+            <div class="text3">
+                <p>At least 74 people have died and scores more are still missing in Myanmar following heavy flooding and landslides caused by Typhoon Yagi, state media reported on Sunday.</p>
+                <p>The flooding across the civil war-torn country has impacted more than 450 villages and wards, according to Myanmar News Agency (MNA).</p>
+                <p>It added that search and rescue operations were underway to locate 89 people still missing. Around 65,000 homes have also been destroyed, according to MNA.</p>
+                <p>Typhoon Yagi, Asia's most powerful storm this year, left a trail of destruction across Southeast Asia and southern China after sweeping the region with heavy rains and strong winds.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+</article>
+<section class="time-section" id="time">
+    <div class="time-content">
+        <div class="page3">
+            <ul class="timeline-top">
+                <li class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">August 30</h5>
+                      <p class="card-text">The JMA reports a LPA forming above Palau.</p>
+                  </li>
+                  <li class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">September 5</h5>
+                      <p class="card-text">Enteng has been upgraded to Super Typhoon by the JTWC.</p>
+                    </div>
+                  </li>
+            </ul>
+            <div class='timeline'></div>
+            <ul class="timeline-bottom">
+                <li class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> !-->
+                    <div class="card-body">
+                      <h5 class="card-title">September 1</h5>
+                      <p class="card-text">PAGSASA declared the system and LPA and named it <i>Enteng</i>.</p>
+                    </div>
+                  </li>
+                  <li class="card" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> !-->
+                    <div class="card-body">
+                      <h5 class="card-title">September 8</h5>
+                      <p class="card-text">Yagi continued to weaken rapidly, becoming a tropical depression on September 8.</p>
+                  </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="about-section" id="about">
+    <div class="about-content">
+        <div class="page5">
+        <p>About us</p>
+        <h6>Members:</h6>
+        <h6>Manzano, Ganryu Jin</h6>
+        <h6>Licopa, John Leonard</h6>
+        <h6>Gutang, Iestyn James</h6>
+        <h6>Mitra, Ethan Connor Jeiz</h6>
+        <h6>Crizaldo, Matthew Ian</h6>
+        <h6>Botones, John Zeiarck</h6>
+        <p>     We are a group of students working together to create a webpage focused on typhoon awareness. Our goal is to give and spread details about Typhoon Enteng. Through this project, we aim to educate and raise awareness 
+            about the impact of typhoons such as Typhoon Enteng. </p>
+        </div>
+    </div>
+</section>
+<section class="source-section" id="source">
+    <div class="source-content">
+        <div class="page5">
+            <p>Sources</p>
+            <ul>
+                <li><a href="https://edition.cnn.com/2024/09/15/asia/typhoon-yagi-myanmar-deaths-intl-hnk/index.html">CNN</a></li>
+                <li><a href="https://edition.cnn.com/2024/09/13/asia/typhoon-yagi-most-powerful-storm-photos-intl-hnk/index.html">CNN</a></li>
+                <li><a href="https://www.rappler.com/philippines/weather/southwest-monsoon-super-typhoon-enteng-update-pagasa-forecast-september-5-2024-4pm/">Rappler</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Typhoon_Yagi#">Wiki</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+</html>
