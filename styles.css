@@ -30,7 +30,7 @@ html, body {
 }
 
 .navbar {
-    display: flex;
+    display: grid;
     align-items: center!important; 
     position: fixed!important;
     justify-content: center;
@@ -44,8 +44,7 @@ html, body {
 .navbar ul {
     display: flex;
     padding: 0;
-    margin: 0;
-    margin-left: 35px;
+    margin: 0 60px;
     padding-right: 35px;
     
 }
@@ -66,9 +65,19 @@ html, body {
 }
 
 .navbar a:hover {
-    font-weight: normal;
-    
+    font-weight: 300;
     padding: 1px;
+    animation: shrink 35ms;
+}
+
+@keyframes shrink {
+    from {
+        font-weight: bold;
+    }
+
+    to {
+        font-weight: normal;
+    }
 }
 
 .heading1 {
