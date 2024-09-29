@@ -65,6 +65,12 @@ html, body {
     
 }
 
+.navbar a:hover {
+    font-weight: normal;
+    
+    padding: 1px;
+}
+
 .heading1 {
     text-align: center;
     position: relative;
@@ -159,3 +165,4 @@ p {
     margin-top: 150px;
     
 }
+
