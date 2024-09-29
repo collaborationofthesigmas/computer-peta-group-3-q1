@@ -65,7 +65,7 @@ html, body {
 }
 
 .navbar a:hover {
-    font-weight: 300;
+    font-weight: normal;
     padding: 1px;
     animation: shrink 35ms;
 }
@@ -175,3 +175,42 @@ p {
     
 }
 
+.page-3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.timeline {
+    position: relative;
+    margin: 30px auto;
+    height: 5px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: black;
+}
+
+
+.timeline-top {
+    list-style: none;
+    display: flex;
+    text-align:  center;
+    margin-left: 1.5rem;
+}
+
+.timeline-top li {
+    margin-right: 18rem;
+    min-width: 10rem;
+}
+
+.timeline-bottom {
+    text-align: center;
+    margin-left: 19.5rem;
+    list-style: none;
+    display: flex;
+}
+
+.timeline-botoom li {
+    margin: 0px 18rem;  
+    min-width: 10rem; 
+}
